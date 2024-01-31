@@ -1,0 +1,1487 @@
+<!-- <data class="CONFIG" action="append">
+  <data>
+    <string class="name">handlersFile</string>
+    <string class="value">http://127.0.0.1:5500/01/handlers.js</string>
+  </data>
+</data> -->
+
+<data class="CHUNKS">
+    <!-- CHUNK - SCROLLING TEXT -->
+    <lm-html class="scrolling-text">
+        <div class="drogues-wrapper drogues-wrapper--flex">
+            <div class="drogues-scrolling-text">
+                <p>
+                    <lm-html>{{ CONTENT }}</lm-html>
+                </p>
+            </div>
+        </div>
+    </lm-html>
+    <!-- CHUNK - SCROLLING TEXT TEASER -->
+    <lm-html class="scrolling-text-teaser">
+        <div class="drogues-wrapper drogues-wrapper--flex">
+            <div class="drogues-scrolling-text scrolling-text--teaser">
+                <p>
+                    <lm-html>{{ CONTENT }}</lm-html>
+                </p>
+            </div>
+        </div>
+    </lm-html>
+    <!-- CHUNK - ARTICLE TITLE -->
+    <lm-html class="article-title">
+        <div class="drogues-wrapper drogues-wrapper--flex">
+            <div class="drogues-article-title">
+                <h1 class="drogues-article-title__title">
+                    <lm-html>{{ TITLE }}</lm-html>
+                </h1>
+                <p class="drogues-article-title__publication">
+                    <lm-html>{{ PUBLICATION }}</lm-html>
+                </p>
+                <p class="drogues-article-title__credits">
+                    <lm-html>{{ CREDITS }}</lm-html>
+                </p>
+            </div>
+        </div>
+    </lm-html>
+    <!-- CHUNK - CHAPTER TITLE -->
+    <lm-html class="chapter-title">
+        <div class="drogues-wrapper drogues-wrapper--flex">
+            <div class="drogues-chapter-title">
+                <h3>
+                    <lm-html>{{ CONTENT }}</lm-html>
+                </h3>
+            </div>
+        </div>
+    </lm-html>
+    <!-- CHUNK - IMAGE BACKGROUND -->
+    <lm-html class="background-image">
+        <div class="drogues-wrapper">
+            <div class="drogues-background-image">
+                <lm-html>{{ CONTENT }}</lm-html>
+            </div>
+        </div>
+    </lm-html>
+    <!-- CHUNK - CONTAINER -->
+    <lm-html class="container">
+        <div class="drogues-wrapper drogues-wrapper--flex">
+            <div class="drogues-container">
+                <lm-html>{{ CONTENT }}</lm-html>
+            </div>
+        </div>
+    </lm-html>
+    <!-- CHUNK - PV TEXT -->
+    <lm-html class="pv-text">
+        <div class="drogues-wrapper drogues-wrapper--flex">
+            <div class="drogues-pv-text">
+                <p>
+                    <lm-html>{{ CONTENT }}</lm-html>
+                </p>
+            </div>
+        </div>
+    </lm-html>
+    <!-- CHUNK - PV TEXT HALF -->
+    <lm-html class="pv-text-half">
+        <div class="drogues-wrapper drogues-wrapper--half drogues-wrapper--flex">
+            <div class="drogues-pv-text">
+                <p>
+                    <lm-html>{{ CONTENT }}</lm-html>
+                </p>
+            </div>
+        </div>
+    </lm-html>
+    <!-- CHUNK - PV ILLU -->
+    <lm-html class="pv-illu">
+        <div class="drogues-wrapper drogues-wrapper--half">
+            <div class="drogues-pv-illu">
+                <lm-html>{{ CONTENT }}</lm-html>
+            </div>
+        </div>
+    </lm-html>
+
+    <!-- CHUNK - CONVERSATION -->
+    <lm-html class="conversation">
+        <div class="drogues-wrapper drogues-wrapper--flex">
+            <div class="drogues-conversation">
+                <lm-html>{{ CONTENT }}</lm-html>
+            </div>
+        </div>
+    </lm-html>
+</data>
+
+<data class="SLOTS">
+    <!------------- SLOT 1 - .drogues-header ------------->
+    <data>
+        <data class="destination">
+            <string class="selector">.drogues-header-slot</string>
+        </data>
+        <lm-html class="content">
+            <div class="drogues-header">
+                <comp name="header">
+                    <string class="customClass">drogues-logo</string>
+                </comp>
+                <div class="drogues-header__nav">
+                    <a href="#chapitre-1"><span>{{ CHAPTER_1 }}</span></a>
+                    <a href="#chapitre-2"><span>{{ CHAPTER_2 }}</span></a>
+                    <a href="#chapitre-3"><span>{{ CHAPTER_3 }}</span></a>
+                    <a href="#chapitre-4"><span>{{ CHAPTER_4 }}</span></a>
+                    <a href="#chapitre-5"><span>{{ CHAPTER_5 }}</span></a>
+                    <a href="#chapitre-6"><span>{{ CHAPTER_6 }}</span></a>
+                    <a href="#chapitre-7"><span>{{ CHAPTER_7 }}</span></a>
+                    <a href="#chapitre-8"><span>{{ CHAPTER_8 }}</span></a>
+                    <replace>
+                        <string>{{ CHAPTER_1 }}</string>
+                        <ref>/TEXTS/header/chapter-1</ref>
+                    </replace>
+                    <replace>
+                        <string>{{ CHAPTER_2 }}</string>
+                        <ref>/TEXTS/header/chapter-2</ref>
+                    </replace>
+                    <replace>
+                        <string>{{ CHAPTER_3 }}</string>
+                        <ref>/TEXTS/header/chapter-3</ref>
+                    </replace>
+                    <replace>
+                        <string>{{ CHAPTER_4 }}</string>
+                        <ref>/TEXTS/header/chapter-4</ref>
+                    </replace>
+                    <replace>
+                        <string>{{ CHAPTER_5 }}</string>
+                        <ref>/TEXTS/header/chapter-5</ref>
+                    </replace>
+                    <replace>
+                        <string>{{ CHAPTER_6 }}</string>
+                        <ref>/TEXTS/header/chapter-6</ref>
+                    </replace>
+                    <replace>
+                        <string>{{ CHAPTER_7 }}</string>
+                        <ref>/TEXTS/header/chapter-7</ref>
+                    </replace>
+                    <replace>
+                        <string>{{ CHAPTER_8 }}</string>
+                        <ref>/TEXTS/header/chapter-8</ref>
+                    </replace>
+                </div>
+                <div class="drogues-header__menu">
+                    <button class="drogues-header__menu-cta">
+                        <img
+                            src="https://assets-decodeurs.lemonde.fr/redacweb/240108-psup-assets/psup-icone-burger.svg" />
+                        Tous les épisodes
+                    </button>
+                </div>
+                <div class="drogues-header__panel">
+                    <div class="drogues-header__panel-inner">
+                        <a href="https://www.lemonde.fr/campus/visuel/2024/01/17/parcoursup-neuf-lyceens-a-l-heure-des-choix_6211350_4401467.html"
+                            class="drogues-header__article-thumb">
+                            <div class="drogues-header__article-thumb-date">17 janvier</div>
+                            <div class="drogues-header__article-thumb-label"><span>La plate-forme ouvre</span></div>
+                            <div class="drogues-header__article-thumb-title"> «&nbsp;Et toi, tu veux faire quoi plus
+                                tard&nbsp;?&nbsp; »</div>
+                            <button class="drogues-header__article-thumb-button">Lire l'article</button>
+                        </a>
+                        <a href="#" class="drogues-header__article-thumb drogues-header__article-thumb_inactive">
+                            <div class="drogues-header__article-thumb-date">Mi-mars</div>
+                            <div class="drogues-header__article-thumb-label"><span>La date limite approche</span></div>
+                            <div class="drogues-header__article-thumb-title"></div>
+                            <button class="drogues-header__article-thumb-button">Lire l'article</button>
+                        </a>
+                        <a href="#" class="drogues-header__article-thumb drogues-header__article-thumb_inactive">
+                            <div class="drogues-header__article-thumb-date">30 mai</div>
+                            <div class="drogues-header__article-thumb-label"><span>PremiÃ¨res rÃ©ponses</span></div>
+                            <div class="drogues-header__article-thumb-title"></div>
+                            <button class="drogues-header__article-thumb-button">Lire l'article</button>
+                        </a>
+                        <a href="#" class="drogues-header__article-thumb drogues-header__article-thumb_inactive">
+                            <div class="drogues-header__article-thumb-date">DÃ©but juillet</div>
+                            <div class="drogues-header__article-thumb-label"><span>Les rÃ©sultats tombent</span></div>
+                            <div class="drogues-header__article-thumb-title"></div>
+                            <button class="drogues-header__article-thumb-button">Lire l'article</button>
+                        </a>
+                        <a href="#" class="drogues-header__article-thumb drogues-header__article-thumb_inactive">
+                            <div class="drogues-header__article-thumb-date">Septembre-octobre</div>
+                            <div class="drogues-header__article-thumb-label"><span>C'est la rentrÃ©e</span></div>
+                            <div class="drogues-header__article-thumb-title"></div>
+                            <button class="drogues-header__article-thumb-button">Lire l'article</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </lm-html>
+    </data>
+
+    <!------------- SLOT 2 - .drogues-scrllgngn ------------->
+    <data>
+        <data class="destination">
+            <string class="selector">.drogues-scrllgngn-slot</string>
+        </data>
+        <lm-html class="content">
+            <comp name="scrllgngn">
+                <string class="customClass">drogues-scrllgngn</string>
+                <string class="forceStickBlocks">before</string>
+                <string class="thresholdOffset">70%</string>
+                <array class="onPageChange">
+                    <string>onScrllgngnPageChange</string>
+                </array>
+                <data class="pages">
+                    <!------------- PAGE TEASER 1 ------------->
+                    <data>
+                        <string class="id">page-teaser-1</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-teaser-1</string>
+                                <data class="content">
+                                    /CHUNKS/scrolling-text-teaser
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/teaser/card-1</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                            <data>
+                                <string class="id">block-teaser-background-1</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/background-image
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/teaser/background-1</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+                    <!------------- PAGE TEASER 2 ------------->
+                    <data>
+                        <string class="id">page-teaser-2</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-teaser-background-1</string>
+                            </data>
+                            <data>
+                                <string class="id">block-teaser-2</string>
+                                <data class="content">
+                                    /CHUNKS/scrolling-text-teaser
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/teaser/card-2</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+                    <!------------- PAGE TEASER 3 ------------->
+                    <data>
+                        <string class="id">page-teaser-3</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-teaser-background-1</string>
+                            </data>
+                            <data>
+                                <string class="id">block-teaser-3</string>
+                                <data class="content">
+                                    /CHUNKS/scrolling-text-teaser
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/teaser/card-3</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+                    <!------------- PAGE TEASER 4 ------------->
+                    <data>
+                        <string class="id">page-teaser-4</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-teaser-background-1</string>
+                            </data>
+                            <data>
+                                <string class="id">block-teaser-4</string>
+                                <data class="content">
+                                    /CHUNKS/scrolling-text-teaser
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/teaser/card-4</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+                    <!------------- PAGE TITLE ------------->
+                    <data>
+                        <string class="id">page-title</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-title</string>
+                                <data class="content">
+                                    /CHUNKS/article-title
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ TITLE }}</string>
+                                            <ref>/TEXTS/title</ref>
+                                        </replace>
+                                        <replace>
+                                            <string>{{ PUBLICATION }}</string>
+                                            <ref>/TEXTS/publication</ref>
+                                        </replace>
+                                        <replace>
+                                            <string>{{ CREDITS }}</string>
+                                            <ref>/TEXTS/credits</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+                    <!------------- PAGE INTRO TITLE ------------->
+                    <data>
+                        <string class="id">page-intro-title</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-intro-title</string>
+                                <data class="content">
+                                    /CHUNKS/chapter-title
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/intro/title</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                            <data>
+                                <string class="id">block-intro-background</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/background-image
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-1/title-background</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+                    <!------------- PAGE INTRO 1 ------------->
+                    <data>
+                        <string class="id">page-intro-1</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-intro-card-1</string>
+                                <data class="content">
+                                    /CHUNKS/scrolling-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/intro/card-1</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-intro-pv-text-1</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-text-half
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/intro/pv-text-1</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-intro-pv-illu-1</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-illu
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/intro/pv-illu-1</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+
+                    <!------------- PAGE INTRO 2 ------------->
+                    <data>
+                        <string class="id">page-intro-2</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-intro-card-2</string>
+                                <data class="content">
+                                    /CHUNKS/scrolling-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/intro/card-2</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-intro-pv-text-2</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-text-half
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/intro/pv-text-2</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-intro-pv-illu-2</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-illu
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/intro/pv-illu-2</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+
+                    <!------------- PAGE INTRO 3 ------------->
+                    <data>
+                        <string class="id">page-intro-3</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-intro-card-3</string>
+                                <data class="content">
+                                    /CHUNKS/scrolling-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/intro/card-3</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-intro-pv-text-3</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-text-half
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/intro/pv-text-3</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-intro-pv-illu-3</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-illu
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/intro/pv-illu-3</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+
+                    <!------------- PAGE INTRO 4 ------------->
+                    <data>
+                        <string class="id">page-intro-4</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-intro-card-4</string>
+                                <data class="content">
+                                    /CHUNKS/scrolling-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/intro/card-4</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-intro-pv-text-4</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-text-half
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/intro/pv-text-4</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-intro-pv-illu-4</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-illu
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/intro/pv-illu-4</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+
+                    <!------------- PAGE INTRO 5 ------------->
+                    <data>
+                        <string class="id">page-intro-5</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-intro-card-5</string>
+                                <data class="content">
+                                    /CHUNKS/scrolling-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/intro/card-5</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-intro-pv-text-5</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-text-half
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/intro/pv-text-5</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-intro-pv-illu-5</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-illu
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/intro/pv-illu-5</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+
+                    <!------------- CHAP. 1 - PAGE TITLE ------------->
+                    <data>
+                        <string class="id">chap-1-page-title</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-chap-1-title</string>
+                                <data class="content">
+                                    /CHUNKS/chapter-title
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-1/title</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                            <data>
+                                <string class="id">block-chap-1-background</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/background-image
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-1/title-background</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+
+                    <!------------- CHAP. 1 - PAGE 1 ------------->
+                    <data>
+                        <string class="id">chap-1-page-1</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-chap-1-card-1</string>
+                                <data class="content">
+                                    /CHUNKS/scrolling-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-1/card-1</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-chap-1-pv-text-1</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-1/pv-text-1</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+
+                    <!------------- CHAP. 1 - PAGE 2 ------------->
+                    <data>
+                        <string class="id">chap-1-page-2</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-chap-1-card-2</string>
+                                <data class="content">
+                                    /CHUNKS/scrolling-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-1/card-2</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-chap-1-carto-placeholder</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/background-image
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-1/carto-placeholder</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+
+                    <!------------- CHAP. 1 - PAGE 3 ------------->
+                    <data>
+                        <string class="id">chap-1-page-3</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-chap-1-card-3</string>
+                                <data class="content">
+                                    /CHUNKS/scrolling-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-1/card-3</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-chap-1-pv-text-3</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-1/pv-text-3</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+
+                    <!------------- CHAP. 1 - PAGE 4 ------------->
+                    <data>
+                        <string class="id">chap-1-page-4</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-chap-1-card-4</string>
+                                <data class="content">
+                                    /CHUNKS/scrolling-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-1/card-4</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-chap-1-pv-text-4</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-text-half
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-1/pv-text-4</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-chap-1-pv-illu-4</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-illu
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/intro/pv-illu-4</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+
+                    <!------------- CHAP. 1 - PAGE 5 ------------->
+                    <data>
+                        <string class="id">chap-1-page-5</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-chap-1-card-5</string>
+                                <data class="content">
+                                    /CHUNKS/scrolling-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-1/card-5</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-chap-1-pv-text-5</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-text-half
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-1/pv-text-5</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-chap-1-pv-illu-5</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-illu
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/intro/pv-illu-5</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+
+                    <!------------- CHAP. 2 PAGE TITLE ------------->
+                    <data>
+                        <string class="id">chap-2-page-title</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-chap-2-title</string>
+                                <data class="content">
+                                    /CHUNKS/chapter-title
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-2/title</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                            <data>
+                                <string class="id">block-chap-2-background</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/background-image
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-2/title-background</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+
+                    <!------------- CHAP. 2 - PAGE 1 ------------->
+                    <data>
+                        <string class="id">chap-2-page-1</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-chap-2-card-1</string>
+                                <data class="content">
+                                    /CHUNKS/scrolling-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-2/card-1</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-chap-2-conversation-1</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/conversation
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/CONVERSATIONS/chapter-2/conversation-1</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+
+                    <!------------- CHAP. 2 - PAGE 2 ------------->
+                    <data>
+                        <string class="id">chap-2-page-2</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-chap-2-card-2</string>
+                                <data class="content">
+                                    /CHUNKS/scrolling-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-2/card-2</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-chap-2-pv-text-2</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-2/pv-text-2</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+
+                    <!------------- CHAP. 2 - PAGE 3 ------------->
+                    <data>
+                        <string class="id">chap-2-page-3</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-chap-2-card-3</string>
+                                <data class="content">
+                                    /CHUNKS/scrolling-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-2/card-3</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-chap-2-pv-text-3</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-2/pv-text-3</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+
+                    <!------------- CHAP. 2 - PAGE 4 ------------->
+                    <data>
+                        <string class="id">chap-2-page-4</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-chap-2-card-4</string>
+                                <data class="content">
+                                    /CHUNKS/scrolling-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-2/card-4</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-chap-2-pv-text-4</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-2/pv-text-4</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+
+                    <!------------- CHAP. 2 - PAGE 5 ------------->
+                    <data>
+                        <string class="id">chap-2-page-5</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-chap-2-card-5</string>
+                                <data class="content">
+                                    /CHUNKS/scrolling-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-2/card-5</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-chap-2-pv-text-5</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-2/pv-text-5</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+
+                    <!------------- CHAP. 2 - PAGE 5 ------------->
+                    <data>
+                        <string class="id">chap-2-page-6</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-chap-2-card-6</string>
+                                <data class="content">
+                                    /CHUNKS/scrolling-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-2/card-6</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-chap-2-placeholder-6</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/container
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-2/placeholder-6</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+
+                    <!------------- CHAP. 3 PAGE TITLE ------------->
+                    <data>
+                        <string class="id">chap-3-page-title</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-chap-3-title</string>
+                                <data class="content">
+                                    /CHUNKS/chapter-title
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-3/title</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                            <data>
+                                <string class="id">block-chap-3-background</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/background-image
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-3/title-background</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+
+                    <!------------- CHAP. 3 - PAGE 1 ------------->
+                    <data>
+                        <string class="id">chap-3-page-1</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-chap-3-card-1</string>
+                                <data class="content">
+                                    /CHUNKS/scrolling-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-3/card-1</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-chap-3-pv-text-1</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-3/pv-text-1</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+
+                    <!------------- CHAP. 3 - PAGE 2 ------------->
+                    <data>
+                        <string class="id">chap-3-page-2</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-chap-3-card-2</string>
+                                <data class="content">
+                                    /CHUNKS/scrolling-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-3/card-2</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-chap-3-pv-text-2</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-3/pv-text-2</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+
+                    <!------------- CHAP. 3 - PAGE 3 ------------->
+                    <data>
+                        <string class="id">chap-3-page-3</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-chap-3-card-3</string>
+                                <data class="content">
+                                    /CHUNKS/scrolling-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-3/card-3</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-chap-3-pv-text-3</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-3/pv-text-3</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+
+                    <!------------- CHAP. 3 - PAGE 4 ------------->
+                    <data>
+                        <string class="id">chap-3-page-4</string>
+                        <data class="blocks">
+                            <data>
+                                <string class="id">block-chap-3-card-4</string>
+                                <data class="content">
+                                    /CHUNKS/scrolling-text
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-3/card-4</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-chap-3-placeholder-4</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/container
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-3/placeholder-4</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+                        </data>
+                    </data>
+
+                    <!------------- // FIN PAGES ------------->
+                </data>
+            </comp>
+        </lm-html>
+    </data>
+</data>

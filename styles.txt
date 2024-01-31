@@ -1,0 +1,250 @@
+<data class="CONFIG" action="append">
+  <data>
+    <string class="name">css</string>
+    <lm-html class="value">
+      <style>
+        :root {
+          --drogues-c-highlight: #ddff7e;
+          --drogues-c-text: black;
+          --drogues-c-white: #fff;
+          --drogues-c-background: #e2e1d9;
+          --drogues-c-card-background: rgba(0, 0, 0, 0.7);
+          --drogues-font-size: 18px;
+          --drogues-para-spacer: calc(var(--drogues-font-size) * 1.5);
+          --drogues-line-height: 150%;
+          --drogues-header-height: 88px;
+          scroll-behavior: smooth;
+        }
+
+        :where(.drogues-header-slot) a,
+        :where(.drogues-scrllgngn-slot) a {
+          text-decoration: none !important;
+        }
+
+        @media (max-width: 600px) {
+          :root {
+            --drogues-font-size: 16px;
+          }
+        }
+
+        body {
+          margin: 0;
+        }
+
+        * {
+          box-sizing: border-box;
+        }
+
+        /* .drogues-header */
+
+        .drogues-header {
+          position: fixed;
+          top: 0;
+          left: 0;
+          z-index: 100;
+          width: 100%;
+          display: grid;
+          grid-template-columns: auto 1fr auto;
+          grid-template-rows: auto;
+          grid-template-areas:
+            'logo nav menu'
+            'nav-below nav-below nav-below'
+            'panel panel panel';
+        }
+
+        .drogues-logo {
+          grid-area: logo;
+        }
+
+        .drogues-logo .fill-1 {
+          fill: #000000;
+        }
+
+        .drogues-logo .fill-2 {
+          fill: #00000099;
+        }
+
+        .drogues-header__nav {
+          padding: 8px 0;
+          position: relative;
+          grid-area: nav;
+          display: flex;
+          justify-content: center;
+          gap: 64px;
+          overflow-x: scroll;
+          scroll-behavior: smooth;
+          scrollbar-width: none;
+          margin-top: -3px;
+        }
+
+        .drogues-header__nav::-webkit-scrollbar {
+          display: none;
+        }
+
+        @media (max-width: 1400px) {
+          .drogues-header__nav {
+            grid-area: nav-below;
+            justify-content: flex-start;
+            margin-top: 8px;
+          }
+        }
+
+        .drogues-header__nav a {
+          display: flex;
+          align-items: center;
+          min-width: 60px;
+          text-align: center;
+          display: block;
+          font-family: var(--lmui-ff-marr-sans);
+          font-weight: 300;
+          color: black;
+          text-decoration: none !important;
+        }
+
+        .drogues-header__nav a.active {
+          font-weight: 700;
+        }
+
+        .drogues-header__nav a.active > span {
+          display: inline-block;
+          margin: 0 auto;
+          border-bottom: 1px solid black;
+        }
+
+        .drogues-header__menu {
+          grid-area: menu;
+          margin: auto;
+        }
+
+        .drogues-header__menu button.drogues-header__menu-cta {
+          display: flex;
+          flex-direction: row;
+          font-family: var(--lmui-ff-marr-sans-condensed);
+          font-size: 16px;
+          text-transform: uppercase;
+          font-weight: 600;
+          color: black !important;
+          gap: 10px;
+          border: unset;
+          background: transparent;
+          padding: 0px;
+          cursor: pointer;
+        }
+
+        .drogues-header__panel {
+          --inner-height: 460px;
+          grid-area: panel;
+          height: 0px;
+          overflow-y: hidden;
+          transition: height 400ms;
+        }
+
+        .drogues-header.drogues-header--opened .drogues-header__panel {
+          height: var(--inner-height);
+        }
+
+        .drogues-header__panel-inner {
+          display: flex;
+          opacity: 0;
+          transition: opacity 200ms;
+          padding: 40px 0;
+          width: fit-content;
+          max-width: 100%;
+          margin: 0 auto;
+        }
+
+        .drogues-header.drogues-header--opened .drogues-header__panel-inner {
+          opacity: 1;
+          transition: opacity 400ms 200ms;
+        }
+
+        /* .drogues-scrllgngn */
+
+        .lm-scrllgngn__block {
+          --drogues-half-width: calc(var(--context-width-px, 100%) / 2);
+        }
+
+        @media (max-width: 1000px) {
+          .lm-scrllgngn__block {
+            --drogues-half-width: var(--context-width-px, 100%);
+          }
+        }
+
+        .drogues-wrapper {
+          height: var(--context-height-px, 100vh);
+          width: var(--context-width-px, 100%);
+        }
+
+        .drogues-wrapper.drogues-wrapper--flex {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .drogues-wrapper.drogues-wrapper--half {
+          width: var(--context-width-px, 100%);
+          max-width: var(--drogues-half-width);
+        }
+
+        .drogues-scrolling-text {
+          background-color: var(--drogues-c-card-background);
+          color: var(--drogues-c-white);
+          font-family: var(--lmui-ff-marr-sans);
+          font-weight: 600;
+          line-height: 140%;
+          padding: 40px;
+          max-width: 600px;
+        }
+
+        .drogues-article-title {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .drogues-article-title__title {
+          font-family: var(--lmui-ff-marr-sans);
+          text-transform: uppercase;
+        }
+
+        .drogues-pv-illu {
+          height: 100%;
+        }
+
+        .drogues-pv-illu img {
+          max-width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        .drogues-pv-text span {
+          display: block;
+        }
+
+        .drogues-background-image {
+          height: 100%;
+        }
+
+        .drogues-background-image img {
+          width: 100%;
+          max-width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+
+        [data-id='block-intro-pv-text-1'] .drogues-wrapper--half,
+        [data-id='block-intro-pv-text-2'] .drogues-wrapper--half,
+        [data-id='block-intro-pv-text-3'] .drogues-wrapper--half,
+        [data-id='block-intro-pv-text-4'] .drogues-wrapper--half,
+        [data-id='block-intro-pv-text-5'] .drogues-wrapper--half,
+        [data-id='block-chap-1-pv-illu-4'] .drogues-wrapper--half,
+        [data-id='block-chap-1-pv-illu-5'] .drogues-wrapper--half {
+          margin-left: auto;
+        }
+      </style>
+    </lm-html>
+  </data>
+</data>
+
+
+
