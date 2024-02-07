@@ -411,27 +411,6 @@
                             </data>
 
                             <data>
-                                <string class="id">block-intro-pv-text-1</string>
-                                <string class="depth">back</string>
-                                <data class="transitions">
-                                    <data>
-                                        <string>fade</string>
-                                        <number>600</number>
-                                    </data>
-                                </data>
-                                <data class="content">
-                                    /CHUNKS/pv-text-half
-                                    <transformer>
-                                        <toRef></toRef>
-                                        <replace>
-                                            <string>{{ CONTENT }}</string>
-                                            <ref>/TEXTS/intro/pv-text-1</ref>
-                                        </replace>
-                                    </transformer>
-                                </data>
-                            </data>
-
-                            <data>
                                 <string class="id">block-intro-pv-illu-1</string>
                                 <string class="depth">back</string>
                                 <data class="transitions">
@@ -447,6 +426,27 @@
                                         <replace>
                                             <string>{{ CONTENT }}</string>
                                             <ref>/TEXTS/intro/pv-illu-1</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-intro-pv-text-1</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-text-half
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/intro/pv-text-1</ref>
                                         </replace>
                                     </transformer>
                                 </data>
@@ -473,6 +473,10 @@
                             </data>
 
                             <data>
+                                <string class="id">block-intro-pv-illu-1</string>
+                            </data>
+
+                            <data>
                                 <string class="id">block-intro-pv-text-2</string>
                                 <string class="depth">back</string>
                                 <data class="transitions">
@@ -488,27 +492,6 @@
                                         <replace>
                                             <string>{{ CONTENT }}</string>
                                             <ref>/TEXTS/intro/pv-text-2</ref>
-                                        </replace>
-                                    </transformer>
-                                </data>
-                            </data>
-
-                            <data>
-                                <string class="id">block-intro-pv-illu-2</string>
-                                <string class="depth">back</string>
-                                <data class="transitions">
-                                    <data>
-                                        <string>fade</string>
-                                        <number>600</number>
-                                    </data>
-                                </data>
-                                <data class="content">
-                                    /CHUNKS/pv-illu
-                                    <transformer>
-                                        <toRef></toRef>
-                                        <replace>
-                                            <string>{{ CONTENT }}</string>
-                                            <ref>/TEXTS/intro/pv-illu-2</ref>
                                         </replace>
                                     </transformer>
                                 </data>
@@ -535,27 +518,6 @@
                             </data>
 
                             <data>
-                                <string class="id">block-intro-pv-text-3</string>
-                                <string class="depth">back</string>
-                                <data class="transitions">
-                                    <data>
-                                        <string>fade</string>
-                                        <number>600</number>
-                                    </data>
-                                </data>
-                                <data class="content">
-                                    /CHUNKS/pv-text-half
-                                    <transformer>
-                                        <toRef></toRef>
-                                        <replace>
-                                            <string>{{ CONTENT }}</string>
-                                            <ref>/TEXTS/intro/pv-text-3</ref>
-                                        </replace>
-                                    </transformer>
-                                </data>
-                            </data>
-
-                            <data>
                                 <string class="id">block-intro-pv-illu-3</string>
                                 <string class="depth">back</string>
                                 <data class="transitions">
@@ -571,6 +533,27 @@
                                         <replace>
                                             <string>{{ CONTENT }}</string>
                                             <ref>/TEXTS/intro/pv-illu-3</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-intro-pv-text-3</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-text-half
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/intro/pv-text-3</ref>
                                         </replace>
                                     </transformer>
                                 </data>
@@ -597,27 +580,6 @@
                             </data>
 
                             <data>
-                                <string class="id">block-intro-pv-text-4</string>
-                                <string class="depth">back</string>
-                                <data class="transitions">
-                                    <data>
-                                        <string>fade</string>
-                                        <number>600</number>
-                                    </data>
-                                </data>
-                                <data class="content">
-                                    /CHUNKS/pv-text-half
-                                    <transformer>
-                                        <toRef></toRef>
-                                        <replace>
-                                            <string>{{ CONTENT }}</string>
-                                            <ref>/TEXTS/intro/pv-text-4</ref>
-                                        </replace>
-                                    </transformer>
-                                </data>
-                            </data>
-
-                            <data>
                                 <string class="id">block-intro-pv-illu-4</string>
                                 <string class="depth">back</string>
                                 <data class="transitions">
@@ -633,6 +595,27 @@
                                         <replace>
                                             <string>{{ CONTENT }}</string>
                                             <ref>/TEXTS/intro/pv-illu-4</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-intro-pv-text-4</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-text-half
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/intro/pv-text-4</ref>
                                         </replace>
                                     </transformer>
                                 </data>
@@ -659,27 +642,6 @@
                             </data>
 
                             <data>
-                                <string class="id">block-intro-pv-text-5</string>
-                                <string class="depth">back</string>
-                                <data class="transitions">
-                                    <data>
-                                        <string>fade</string>
-                                        <number>600</number>
-                                    </data>
-                                </data>
-                                <data class="content">
-                                    /CHUNKS/pv-text-half
-                                    <transformer>
-                                        <toRef></toRef>
-                                        <replace>
-                                            <string>{{ CONTENT }}</string>
-                                            <ref>/TEXTS/intro/pv-text-5</ref>
-                                        </replace>
-                                    </transformer>
-                                </data>
-                            </data>
-
-                            <data>
                                 <string class="id">block-intro-pv-illu-5</string>
                                 <string class="depth">back</string>
                                 <data class="transitions">
@@ -695,6 +657,27 @@
                                         <replace>
                                             <string>{{ CONTENT }}</string>
                                             <ref>/TEXTS/intro/pv-illu-5</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-intro-pv-text-5</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-text-half
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/intro/pv-text-5</ref>
                                         </replace>
                                     </transformer>
                                 </data>
@@ -884,27 +867,6 @@
                             </data>
 
                             <data>
-                                <string class="id">block-chap-1-pv-text-4</string>
-                                <string class="depth">back</string>
-                                <data class="transitions">
-                                    <data>
-                                        <string>fade</string>
-                                        <number>600</number>
-                                    </data>
-                                </data>
-                                <data class="content">
-                                    /CHUNKS/pv-text-half
-                                    <transformer>
-                                        <toRef></toRef>
-                                        <replace>
-                                            <string>{{ CONTENT }}</string>
-                                            <ref>/TEXTS/chapter-1/pv-text-4</ref>
-                                        </replace>
-                                    </transformer>
-                                </data>
-                            </data>
-
-                            <data>
                                 <string class="id">block-chap-1-pv-illu-4</string>
                                 <string class="depth">back</string>
                                 <data class="transitions">
@@ -920,6 +882,27 @@
                                         <replace>
                                             <string>{{ CONTENT }}</string>
                                             <ref>/TEXTS/intro/pv-illu-4</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-chap-1-pv-text-4</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-text-half
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-1/pv-text-4</ref>
                                         </replace>
                                     </transformer>
                                 </data>
@@ -946,27 +929,6 @@
                             </data>
 
                             <data>
-                                <string class="id">block-chap-1-pv-text-5</string>
-                                <string class="depth">back</string>
-                                <data class="transitions">
-                                    <data>
-                                        <string>fade</string>
-                                        <number>600</number>
-                                    </data>
-                                </data>
-                                <data class="content">
-                                    /CHUNKS/pv-text-half
-                                    <transformer>
-                                        <toRef></toRef>
-                                        <replace>
-                                            <string>{{ CONTENT }}</string>
-                                            <ref>/TEXTS/chapter-1/pv-text-5</ref>
-                                        </replace>
-                                    </transformer>
-                                </data>
-                            </data>
-
-                            <data>
                                 <string class="id">block-chap-1-pv-illu-5</string>
                                 <string class="depth">back</string>
                                 <data class="transitions">
@@ -982,6 +944,27 @@
                                         <replace>
                                             <string>{{ CONTENT }}</string>
                                             <ref>/TEXTS/intro/pv-illu-5</ref>
+                                        </replace>
+                                    </transformer>
+                                </data>
+                            </data>
+
+                            <data>
+                                <string class="id">block-chap-1-pv-text-5</string>
+                                <string class="depth">back</string>
+                                <data class="transitions">
+                                    <data>
+                                        <string>fade</string>
+                                        <number>600</number>
+                                    </data>
+                                </data>
+                                <data class="content">
+                                    /CHUNKS/pv-text-half
+                                    <transformer>
+                                        <toRef></toRef>
+                                        <replace>
+                                            <string>{{ CONTENT }}</string>
+                                            <ref>/TEXTS/chapter-1/pv-text-5</ref>
                                         </replace>
                                     </transformer>
                                 </data>
