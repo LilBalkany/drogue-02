@@ -45,14 +45,10 @@
   </data>
 
   <!------------- TITLE ------------->
-  <lm-html class="title">
-    Au cœur d’un supermarché de la drogue
-  </lm-html>
-  <lm-html class="publication">
-    Publié le 10 avril 2024
-  </lm-html>
+  <lm-html class="title">Au cœur d’un supermarché de la drogue</lm-html>
+  <lm-html class="publication">Publié le 10 avril 2024</lm-html>
   <lm-html class="credits">
-      Par Luc Bronner, Machin Truc, Machin Truc, Machin Truc et Machin Truc
+    Par Luc Bronner, Machin Truc, Machin Truc, Machin Truc et Machin Truc
   </lm-html>
 
   <!------------- INTRO ------------->
@@ -61,15 +57,14 @@
       500 clients par jour, 15000 euros de chiffre d’affaires
     </lm-html>
     <lm-html class="pv-text-1">
-        “Nous constatons que la dizaine de guetteurs se rassemblent en plein
-        milieu de la cité. Ils quittent leur position initiale. Ils discutent un
-        temps puis se dispersent sur les différents points d’accès à la cité. Il
-        semble que nous venons d’assister à la répartition des guetteurs avant
-        le début des transactions de stupéfiants”.
-        <span>
-          Procès verbal, synthèse de Police, légende très complète et très
-          longue
-        </span>
+      “Nous constatons que la dizaine de guetteurs se rassemblent en plein
+      milieu de la cité. Ils quittent leur position initiale. Ils discutent un
+      temps puis se dispersent sur les différents points d’accès à la cité. Il
+      semble que nous venons d’assister à la répartition des guetteurs avant le
+      début des transactions de stupéfiants”.
+      <span class="drogues-pv-text__source">
+        Procès verbal, synthèse de Police, légende très complète et très longue
+      </span>
     </lm-html>
     <data class="pv-illu-1">
       <lm-html>
@@ -90,307 +85,291 @@
       </lm-html>
     </data>
     <lm-html class="card-1">
-        23 février 2021.
-        <br />
-        11h40.
-        <br />
-        Les gardiens de la paix X. et Y. se sont dissimulés dans les étages de
-        la cité Marcel Paul à l’Ile-Saint Denis.
+      23 février 2021.
+      <br />
+      11h40.
+      <br />
+      Les gardiens de la paix X. et Y. se sont dissimulés dans les étages de la
+      cité Marcel Paul à l’Ile-Saint Denis.
     </lm-html>
     <lm-html class="pv-text-2">
-        12h40 : “Constatons deux individus de type caucasien escortés par un
-        guetteur se diriger en direction de Traoré. Les deux individus tendent
-        des billets de banque et se font remettre des pochons transparents
-        contenant de la matière brunâtre s’apparentant à de la résine de
-        cannabis”.
-        <span>
-          Procès verbal, synthèse de Police, légende très complète et très
-          longue
-        </span>
+      <span class="drogues-pv-text__date">12h40</span>
+      “Constatons deux individus de type caucasien escortés par un guetteur se
+      diriger en direction de Traoré. Les deux individus tendent des billets de
+      banque et se font remettre des pochons transparents contenant de la
+      matière brunâtre s’apparentant à de la résine de
+      <span class="drogues-pv-text__highlight">cannabis</span>
+      ”
+      <span class="drogues-pv-text__source">
+        Procès verbal, synthèse de Police, légende très complète et très longue
+      </span>
     </lm-html>
     <lm-html class="pv-illu-2">
-        <img
-          src="https://assets-decodeurs.lemonde.fr/redacweb/231130-desti-assets/desti-7.jpg"
-          alt="WIP" />
+      <img
+        src="https://assets-decodeurs.lemonde.fr/redacweb/231130-desti-assets/desti-7.jpg"
+        alt="WIP" />
     </lm-html>
-    <lm-html class="card-2">
-      Card 2
-    </lm-html>
+    <lm-html class="card-2">Card 2</lm-html>
     <lm-html class="pv-text-3">
-        12h42 : cinq clients arrivent.
-        <br />
-        12h50 : cinq nouveaux acheteurs.
-        <br />
-        12h53 : six autres individus extérieurs à la cité...
+      12h42 : cinq clients arrivent.
+      <br />
+      12h50 : cinq nouveaux acheteurs.
+      <br />
+      12h53 : six autres individus extérieurs à la cité...
     </lm-html>
     <lm-html class="pv-illu-3">
-        <img
-          src="https://assets-decodeurs.lemonde.fr/redacweb/231130-desti-assets/desti-7.jpg"
-          alt="WIP" />
+      <img
+        src="https://assets-decodeurs.lemonde.fr/redacweb/231130-desti-assets/desti-7.jpg"
+        alt="WIP" />
     </lm-html>
-    <lm-html class="card-3">
-      Card 3
-    </lm-html>
+    <lm-html class="card-3">Card 3</lm-html>
     <lm-html class="pv-text-4">
-        De 18h23 à 21h, constatons un total de 297 clients échanger des billets
-        de banque contre de la matière stupéfiante. Cette augmentation
-        significative du nombre de clients s’explique sûrement par la tranche
-        horaire qui correspond à la sortie des bureaux”.
+      De 18h23 à 21h, constatons un total de 297 clients échanger des billets de
+      banque contre de la matière stupéfiante. Cette augmentation significative
+      du nombre de clients s’explique sûrement par la tranche horaire qui
+      correspond à la sortie des bureaux”.
     </lm-html>
     <lm-html class="pv-illu-4">
-        <img
-          src="https://assets-decodeurs.lemonde.fr/redacweb/231130-desti-assets/desti-7.jpg"
-          alt="WIP" />
+      <img
+        src="https://assets-decodeurs.lemonde.fr/redacweb/231130-desti-assets/desti-7.jpg"
+        alt="WIP" />
     </lm-html>
-    <lm-html class="card-4">
-      Card 4
-    </lm-html>
+    <lm-html class="card-4">Card 4</lm-html>
     <lm-html class="pv-text-5">
-        21h05 : “Vu la pénombre dans la cité et le manque d’éclairage, décidons
-        de mettre fin à notre surveillance. Précisons néanmoins que le flux de
-        toxicomanes n’a pas cessé malgré la nuit qui est tombée”.
+      21h05 : “Vu la pénombre dans la cité et le manque d’éclairage, décidons de
+      mettre fin à notre surveillance. Précisons néanmoins que le flux de
+      toxicomanes n’a pas cessé malgré la nuit qui est tombée”.
     </lm-html>
     <lm-html class="pv-illu-5">
-        <img
-          src="https://assets-decodeurs.lemonde.fr/redacweb/231130-desti-assets/desti-7.jpg"
-          alt="WIP" />
+      <img
+        src="https://assets-decodeurs.lemonde.fr/redacweb/231130-desti-assets/desti-7.jpg"
+        alt="WIP" />
     </lm-html>
-    <lm-html class="card-5">
-      Bilan : 493 clients sur une demi-journée.
-    </lm-html>
+    <lm-html class="card-5">Bilan : 493 clients sur une demi-journée.</lm-html>
   </data>
 
   <!------------- CHAPITRE 1 ------------->
   <data class="chapter-1">
     <lm-html class="title">
-        <span>Chapitre 1</span>
-        L’emplacement commercial idéal
+      <div class="drogues-chapter-anchor" id="chapitre-1">
+        <h3>
+          <span>Chapitre 1</span>
+          L’emplacement commercial idéal
+        </h3>
+      </div>
     </lm-html>
     <lm-html class="title-background">
-        <img
-          src="https://assets-decodeurs.lemonde.fr/redacweb/231130-desti-assets/desti-1.jpg"
-          alt="WIP" />
+      <img
+        src="https://assets-decodeurs.lemonde.fr/redacweb/231130-desti-assets/desti-1.jpg"
+        alt="WIP" />
     </lm-html>
     <lm-html class="carto-placeholder">
-        <img
-          src="https://assets-decodeurs.lemonde.fr/redacweb/231130-desti-assets/desti-2.jpg"
-          alt="WIP" />
+      <img
+        src="https://assets-decodeurs.lemonde.fr/redacweb/231130-desti-assets/desti-2.jpg"
+        alt="WIP" />
     </lm-html>
     <lm-html class="pv-text-1">
-        Au carrefour des départements de Seine Saint Denis et des hauts de
-        Seine, cette position privilégiée augmente le potentiel des toxicomanes
-        susceptibles de se rendre dans la cité Marcel Paul.
-        <span>
-          Procès verbal, synthèse de Police, légende très complète et très
-          longue
-        </span>
+      Au carrefour des départements de Seine Saint Denis et des hauts de Seine,
+      cette position privilégiée augmente le potentiel des toxicomanes
+      susceptibles de se rendre dans la cité Marcel Paul.
+      <span class="drogues-pv-text__source">
+        Procès verbal, synthèse de Police, légende très complète et très longue
+      </span>
     </lm-html>
-    <lm-html class="card-1">
-      Card 1
-    </lm-html>
+    <lm-html class="card-1">Card 1</lm-html>
     <lm-html class="card-2">
-        Le potentiel de l’emplacement est connu depuis des années. Par les
-        clients. Par les délinquants. Par les policiers.
+      Le potentiel de l’emplacement est connu depuis des années. Par les
+      clients. Par les délinquants. Par les policiers.
     </lm-html>
     <lm-html class="pv-text-3">
-        “Les différentes opérations de police organisées depuis plusieurs années
-        sur ce secteur n'ont pas permis d'arrêter la vente de stupéfiants (25
-        procédures diligentées en flagrant délit en 2020). Au contraire, elles
-        ont mis en évidence que ce trafic était implanté solidement dans une
-        cité qui vit au quotidien les nuisances occasionnées par des guetteurs
-        qui hurlent à chaque passage des effectifs de police ou avec
-        l'occupation des halls par des dealers qui effectuent les transactions
-        de drogue avec les toxicomanes. Il en résulte aussi une violence en
-        constante augmentation en lien avec le trafic de stupéfiants. En plus
-        des pressions subies par les habitants qui sont difficilement évaluables
-        au vu d'une réelle omerta qui distant les rapports entre la police et
-        les riverains, des saisies importantes d'armes témoignent d'une escalade
-        de cette violence”
-        <span>
-          Procès verbal, synthèse de Police, légende très complète et très
-          longue
-        </span>
+      “Les différentes opérations de police organisées depuis plusieurs années
+      sur ce secteur n'ont pas permis d'arrêter la vente de stupéfiants (25
+      procédures diligentées en flagrant délit en 2020). Au contraire, elles ont
+      mis en évidence que ce trafic était implanté solidement dans une cité qui
+      vit au quotidien les nuisances occasionnées par des guetteurs qui hurlent
+      à chaque passage des effectifs de police ou avec l'occupation des halls
+      par des dealers qui effectuent les transactions de drogue avec les
+      toxicomanes. Il en résulte aussi une violence en constante augmentation en
+      lien avec le trafic de stupéfiants. En plus des pressions subies par les
+      habitants qui sont difficilement évaluables au vu d'une réelle omerta qui
+      distant les rapports entre la police et les riverains, des saisies
+      importantes d'armes témoignent d'une escalade de cette violence”
+      <span class="drogues-pv-text__source">
+        Procès verbal, synthèse de Police, légende très complète et très longue
+      </span>
     </lm-html>
     <lm-html class="card-3">
-        La configuration du quartier est également favorable pour réduire les
-        risques d’intervention policière. Les guetteurs apparaissent même sur
-        Google street…
+      La configuration du quartier est également favorable pour réduire les
+      risques d’intervention policière. Les guetteurs apparaissent même sur
+      Google street…
     </lm-html>
     <lm-html class="pv-text-4">
-        “Les cités sont enclavées et le nombre de rues est limité ce qui oblige
-        les passages répétés par les mêmes endroits qui sont toujours sous la
-        surveillance des guetteurs mis en place par les membres de ce trafic de
-        stupéfiants.”
+      “Les cités sont enclavées et le nombre de rues est limité ce qui oblige
+      les passages répétés par les mêmes endroits qui sont toujours sous la
+      surveillance des guetteurs mis en place par les membres de ce trafic de
+      stupéfiants.”
     </lm-html>
     <lm-html class="pv-illu-4">
-        <img
-          src="https://assets-decodeurs.lemonde.fr/redacweb/231130-desti-assets/desti-7.jpg"
-          alt="WIP" />
+      <img
+        src="https://assets-decodeurs.lemonde.fr/redacweb/231130-desti-assets/desti-7.jpg"
+        alt="WIP" />
     </lm-html>
-    <lm-html class="card-4">
-      Card 4
-    </lm-html>
+    <lm-html class="card-4">Card 4</lm-html>
     <lm-html class="pv-text-5">
-        “De l’autre côté de la loge, constatons également un tag de type
-        graffiti réalisé à la bombe de peinture mentionnant l’inscription
-        suivante : “Sa vend du chite pas du chocolat, andouille””
+      “De l’autre côté de la loge, constatons également un tag de type graffiti
+      réalisé à la bombe de peinture mentionnant l’inscription suivante : “Sa
+      vend du chite pas du chocolat, andouille””
     </lm-html>
     <lm-html class="pv-illu-5">
-        <img
-          src="https://assets-decodeurs.lemonde.fr/redacweb/231130-desti-assets/desti-7.jpg"
-          alt="WIP" />
+      <img
+        src="https://assets-decodeurs.lemonde.fr/redacweb/231130-desti-assets/desti-7.jpg"
+        alt="WIP" />
     </lm-html>
-    <lm-html class="card-5">
-      Card 5
-    </lm-html>
+    <lm-html class="card-5">Card 5</lm-html>
   </data>
 
   <!------------- CHAPITRE 2 ------------->
   <data class="chapter-2">
     <lm-html class="title">
-        <span>Chapitre 2</span>
-        La toile d’araignée policière
+      <div class="drogues-chapter-anchor" id="chapitre-2">
+        <h3>
+          <span>Chapitre 2</span>
+          La toile d’araignée policière
+        </h3>
+      </div>
     </lm-html>
     <lm-html class="title-background">
-        <img
-          src="https://assets-decodeurs.lemonde.fr/redacweb/231130-desti-assets/desti-1.jpg"
-          alt="WIP" />
+      <img
+        src="https://assets-decodeurs.lemonde.fr/redacweb/231130-desti-assets/desti-1.jpg"
+        alt="WIP" />
     </lm-html>
     <lm-html class="card-1">
-        Les policiers lancent des écoutes téléphoniques. Dix-huit écoutes en
-        parallèle. Des centaines d’heures. Des dizaines et des dizaines de
-        retranscriptions. Mais les dealers se méfient. Peu d’informations au
-        téléphone.
+      Les policiers lancent des écoutes téléphoniques. Dix-huit écoutes en
+      parallèle. Des centaines d’heures. Des dizaines et des dizaines de
+      retranscriptions. Mais les dealers se méfient. Peu d’informations au
+      téléphone.
     </lm-html>
     <lm-html class="card-2">
-        Les policiers obtiennent l’autorisation d’installer discrètement
-        plusieurs caméras (quatre) “aux abords de la cité” pendant 31 jours.
-        <br />
-        Le mode opératoire se dévoile progressivement pour la gestion des
-        clients et des stocks.
+      Les policiers obtiennent l’autorisation d’installer discrètement plusieurs
+      caméras (quatre) “aux abords de la cité” pendant 31 jours.
+      <br />
+      Le mode opératoire se dévoile progressivement pour la gestion des clients
+      et des stocks.
     </lm-html>
     <lm-html class="pv-text-2">
-        Durant cette surveillance discrète dans la cité Marcel Paul à
-        l’Ile-Saint-Denis, nous avons pu voir AIT AMOUROUS venir du boulevard
-        Marcel Paul avec un gros sac noir.
-        <br />
-        Ce dernier l'a caché soigneusement dans la végétation, a l'abri des
-        regards, entre la Seine et le complexe Sportif.
+      Durant cette surveillance discrète dans la cité Marcel Paul à
+      l’Ile-Saint-Denis, nous avons pu voir AIT AMOUROUS venir du boulevard
+      Marcel Paul avec un gros sac noir.
+      <br />
+      Ce dernier l'a caché soigneusement dans la végétation, a l'abri des
+      regards, entre la Seine et le complexe Sportif.
     </lm-html>
-    <lm-html class="card-3">
-      Card 3
-    </lm-html>
+    <lm-html class="card-3">Card 3</lm-html>
     <lm-html class="pv-text-3">
-        Il en a prélèvé des sachets blancs qu'il a remis tout au long de l'après
-        midi à MARTINS qui était positionné à l'angle du bâtiment 09 Marcel
-        Paul. MARTINS a pris de ces sachets blancs plusieurs pochons de résine
-        et herbe de cannabis et les a remis à TRAORE. TRAORE a pris les pochons
-        et s'est dirigé entre le bâtiment 07 et l'ancienne loge de gardien pour
-        procéder au vente.
+      Il en a prélèvé des sachets blancs qu'il a remis tout au long de l'après
+      midi à MARTINS qui était positionné à l'angle du bâtiment 09 Marcel Paul.
+      MARTINS a pris de ces sachets blancs plusieurs pochons de résine et herbe
+      de cannabis et les a remis à TRAORE. TRAORE a pris les pochons et s'est
+      dirigé entre le bâtiment 07 et l'ancienne loge de gardien pour procéder au
+      vente.
     </lm-html>
-    <lm-html class="card-4">
-      Card 4
-    </lm-html>
+    <lm-html class="card-4">Card 4</lm-html>
     <lm-html class="pv-text-4">
-        Les clients quant à eux entraient dans la cité par l'entrée située entre
-        le bâtiment 13 et le bâtiment 15. Un guetteur les a escorté
-        méticuleusement vers TRAORE et les positionne en file d'attente. Une
-        fois la vente effectuée les acheteurs quittaient les lieux via le même
-        cheminement.
+      Les clients quant à eux entraient dans la cité par l'entrée située entre
+      le bâtiment 13 et le bâtiment 15. Un guetteur les a escorté
+      méticuleusement vers TRAORE et les positionne en file d'attente. Une fois
+      la vente effectuée les acheteurs quittaient les lieux via le même
+      cheminement.
     </lm-html>
-    <lm-html class="card-5">
-      Card 5
-    </lm-html>
+    <lm-html class="card-5">Card 5</lm-html>
     <lm-html class="pv-text-5">
-        Une fois que le sachet blanc était vide, MARTINS faisait signe à AIT
-        AMOUROUS qui se rendait au près du gros sac noir et y prélevait un autre
-        sachet blanc pour le remettre à MARTINS. BENMANSOUR Mohammed avait pour
-        rôle de venir prélever l'argent auprès de MARTINS, chaque heure afin de
-        l'entreposer en lieu sür.
+      Une fois que le sachet blanc était vide, MARTINS faisait signe à AIT
+      AMOUROUS qui se rendait au près du gros sac noir et y prélevait un autre
+      sachet blanc pour le remettre à MARTINS. BENMANSOUR Mohammed avait pour
+      rôle de venir prélever l'argent auprès de MARTINS, chaque heure afin de
+      l'entreposer en lieu sür.
     </lm-html>
     <lm-html class="card-6">
-        Les policiers mettent en place des balises de géolocalisation des
-        véhicules identifiés.
+      Les policiers mettent en place des balises de géolocalisation des
+      véhicules identifiés.
     </lm-html>
     <lm-html class="placeholder-6">
-        <img
-          src="https://assets-decodeurs.lemonde.fr/redacweb/231130-desti-assets/desti-3.jpg"
-          alt="WIP" />
+      <img
+        src="https://assets-decodeurs.lemonde.fr/redacweb/231130-desti-assets/desti-3.jpg"
+        alt="WIP" />
     </lm-html>
   </data>
 
   <!------------- CHAPITRE 3 ------------->
   <data class="chapter-3">
     <lm-html class="title">
-        <span>Chapitre 3</span>
-        La recherche des chefs
+      <div class="drogues-chapter-anchor" id="chapitre-3">
+        <h3>
+          <span>Chapitre 3</span>
+          La recherche des chefs
+        </h3>
+      </div>
     </lm-html>
     <lm-html class="title-background">
-        <img
-          src="https://assets-decodeurs.lemonde.fr/redacweb/231130-desti-assets/desti-1.jpg"
-          alt="WIP" />
+      <img
+        src="https://assets-decodeurs.lemonde.fr/redacweb/231130-desti-assets/desti-1.jpg"
+        alt="WIP" />
     </lm-html>
     <lm-html class="card-1">
-        Dans leur enquête, les policiers ont bénéficié d’une dénonciation
-        anonyme. Un cas fréquent dans les dossiers de stupéfiants où les
-        “renseignements anonymes” servent souvent de point de départ aux
-        enquêteurs.
+      Dans leur enquête, les policiers ont bénéficié d’une dénonciation anonyme.
+      Un cas fréquent dans les dossiers de stupéfiants où les “renseignements
+      anonymes” servent souvent de point de départ aux enquêteurs.
     </lm-html>
     <lm-html class="pv-text-1">
-        “Nous, OB, brigadier chef de police, officier de police judiciaire, nous
-        trouvant au service, poursuivant l’enquête en la forme préliminaire, vu
-        les articles 75 et suivants du Code de procédure pénale, sommes mis en
-        relation avec une personne désireuse de nous communiquer des
-        informations sur le trafic de stupéfiants qui se déroule dans la cité
-        Marcel Paul à l'lle Saint Denis --.
+      “Nous, OB, brigadier chef de police, officier de police judiciaire, nous
+      trouvant au service, poursuivant l’enquête en la forme préliminaire, vu
+      les articles 75 et suivants du Code de procédure pénale, sommes mis en
+      relation avec une personne désireuse de nous communiquer des informations
+      sur le trafic de stupéfiants qui se déroule dans la cité Marcel Paul à
+      l'lle Saint Denis --.
     </lm-html>
     <lm-html class="card-2">
-        Un indicateur ? Un concurrent ? Un membre de l’organisation ? La source
-        connaît très bien le réseau, elle donne des noms, des fonctions et
-        détaille le fonctionnement du trafic.
+      Un indicateur ? Un concurrent ? Un membre de l’organisation ? La source
+      connaît très bien le réseau, elle donne des noms, des fonctions et
+      détaille le fonctionnement du trafic.
     </lm-html>
     <lm-html class="pv-text-2">
-        “Notre source nous propose de prendre contact avec nous fréquemment pour
-        nous donner des informations sur l'évolution du trafic mais ne souhaite
-        pas nous rencontrer pour éviter de se mettre en danger,--- --- Elle
-        insiste sur la violence dont sont capables ces individus et sur les
-        liens qui les unissent étant originaires de la même cité depuis des
-        années”
+      “Notre source nous propose de prendre contact avec nous fréquemment pour
+      nous donner des informations sur l'évolution du trafic mais ne souhaite
+      pas nous rencontrer pour éviter de se mettre en danger,--- --- Elle
+      insiste sur la violence dont sont capables ces individus et sur les liens
+      qui les unissent étant originaires de la même cité depuis des années”
     </lm-html>
     <lm-html class="card-3">
-        Les policiers installent des micros dans les voitures des patrons.
-        Notamment la C4 de Rami K, “DG” du point de deal.
+      Les policiers installent des micros dans les voitures des patrons.
+      Notamment la C4 de Rami K, “DG” du point de deal.
     </lm-html>
     <lm-html class="pv-text-3">
-        – Cette personne nous indique que GASSAMA Dougoutiguy alias "Dougou" est
-        le chef de cette organisation, --- ﻿-- Qu'il est entouré des frères
-        MAGASSA Mamadou et Waly ainsi que par les frères KHALDI Rami et Walid,
-        --- -- Il s'agit de son cercle proche avec lequel il gère étroitement le
-        trafic,--- ﻿﻿- Notre interlocutrice poursuit en nous expliquant que
-        cette organisation utilise des appartements ou des maisons pour stocker
-        de l'argent ou des produits stupéfiants dans toute l'Ile Saint Denis ---
-        ﻿-- Un appartement servirait de lieu de stockage rue de l'Eglise et un
-        autre de "tire lire" au 20 rue Marcel Cachin dans la cité du même nom,
-        -- Plusieurs autres individus auraient des rôles moins importants mais
-        indispensable pour ce trafic, -- Ainsi elle nous fait mention ALITOUCHE
-        Younes qui serait chargé de vérifier la drogue, les recharges,--- KONATE
-        Ismael surnommé "Blazeur" qui approvisionnerait le point de stupéfiants
-        depuis les appartements nourrices, -- -- DRAREDJA Yacine surnommé
-        "Souris" qui accompagnerait KHALDI Rami lors des transports de
-        stupéfiants chez les nourrices, -- ﻿-- Les frères EDIAHO ousseyni (alias
-        Fouz) et Chérif alias (Cheriki) qui sont les gérants du terrain et ceux
-        qui transportent l'argent après la fermeture du point de deal. --- ﻿--
-        Les frères BENABDELKADER Yacine et Karim qui seraient utilisés pour
-        découper la drogue et la préparer pour les ventes avec les toxicomanes
-        --- ﻿-- SCIBONNA Gaetan serait l'individu qui approvisionnerait le
-        trafic en cocaïne,--
+      – Cette personne nous indique que GASSAMA Dougoutiguy alias "Dougou" est
+      le chef de cette organisation, --- ﻿-- Qu'il est entouré des frères
+      MAGASSA Mamadou et Waly ainsi que par les frères KHALDI Rami et Walid, ---
+      -- Il s'agit de son cercle proche avec lequel il gère étroitement le
+      trafic,--- ﻿﻿- Notre interlocutrice poursuit en nous expliquant que cette
+      organisation utilise des appartements ou des maisons pour stocker de
+      l'argent ou des produits stupéfiants dans toute l'Ile Saint Denis --- ﻿--
+      Un appartement servirait de lieu de stockage rue de l'Eglise et un autre
+      de "tire lire" au 20 rue Marcel Cachin dans la cité du même nom, --
+      Plusieurs autres individus auraient des rôles moins importants mais
+      indispensable pour ce trafic, -- Ainsi elle nous fait mention ALITOUCHE
+      Younes qui serait chargé de vérifier la drogue, les recharges,--- KONATE
+      Ismael surnommé "Blazeur" qui approvisionnerait le point de stupéfiants
+      depuis les appartements nourrices, -- -- DRAREDJA Yacine surnommé "Souris"
+      qui accompagnerait KHALDI Rami lors des transports de stupéfiants chez les
+      nourrices, -- ﻿-- Les frères EDIAHO ousseyni (alias Fouz) et Chérif alias
+      (Cheriki) qui sont les gérants du terrain et ceux qui transportent
+      l'argent après la fermeture du point de deal. --- ﻿-- Les frères
+      BENABDELKADER Yacine et Karim qui seraient utilisés pour découper la
+      drogue et la préparer pour les ventes avec les toxicomanes --- ﻿--
+      SCIBONNA Gaetan serait l'individu qui approvisionnerait le trafic en
+      cocaïne,--
     </lm-html>
-    <lm-html class="card-4">
-      L’organigramme se clarifie
-    </lm-html>
-    <lm-html class="placeholder-4">
-      Ici un organigramme
-    </lm-html>
+    <lm-html class="card-4">L’organigramme se clarifie</lm-html>
+    <lm-html class="placeholder-4">Ici un organigramme</lm-html>
   </data>
 
   <!------------- HEADER ------------->

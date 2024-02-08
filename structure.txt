@@ -1,9 +1,12 @@
-<!-- <data class="CONFIG" action="append">
-  <data>
+<!-- CONFIG -->
+<data class="CONFIG" action="append">
+  <record>
     <string class="name">handlersFile</string>
-    <string class="value">http://127.0.0.1:5500/01/handlers.js</string>
+    <string class="value">
+        https://assets-decodeurs.lemonde.fr/redacweb/240201-drogues-02-assets/handlers.js?jdldm    
+    </string>
+  </record>
   </data>
-</data> -->
 
 <data class="CHUNKS">
     <!-- CHUNK - SCROLLING TEXT -->
@@ -46,9 +49,7 @@
     <lm-html class="chapter-title">
         <div class="drogues-wrapper drogues-wrapper--flex">
             <div class="drogues-chapter-title">
-                <h3>
                     <lm-html>{{ CONTENT }}</lm-html>
-                </h3>
             </div>
         </div>
     </lm-html>
@@ -223,7 +224,7 @@
                 <data class="pages">
                     <!------------- PAGE TEASER 1 ------------->
                     <data>
-                        <string class="id">page-teaser-1</string>
+            <string class="id">0-page-teaser-1</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-teaser-1</string>
@@ -262,7 +263,7 @@
                     </data>
                     <!------------- PAGE TEASER 2 ------------->
                     <data>
-                        <string class="id">page-teaser-2</string>
+            <string class="id">0-page-teaser-2</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-teaser-background-1</string>
@@ -284,7 +285,7 @@
                     </data>
                     <!------------- PAGE TEASER 3 ------------->
                     <data>
-                        <string class="id">page-teaser-3</string>
+            <string class="id">0-page-teaser-3</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-teaser-background-1</string>
@@ -306,7 +307,7 @@
                     </data>
                     <!------------- PAGE TEASER 4 ------------->
                     <data>
-                        <string class="id">page-teaser-4</string>
+            <string class="id">0-page-teaser-4</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-teaser-background-1</string>
@@ -328,7 +329,7 @@
                     </data>
                     <!------------- PAGE TITLE ------------->
                     <data>
-                        <string class="id">page-title</string>
+            <string class="id">0-page-title</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-title</string>
@@ -355,7 +356,7 @@
                     </data>
                     <!------------- PAGE INTRO TITLE ------------->
                     <data>
-                        <string class="id">page-intro-title</string>
+            <string class="id">0-page-intro-title</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-intro-title</string>
@@ -394,7 +395,7 @@
                     </data>
                     <!------------- PAGE INTRO 1 ------------->
                     <data>
-                        <string class="id">page-intro-1</string>
+            <string class="id">0-page-intro-1</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-intro-card-1</string>
@@ -456,7 +457,7 @@
 
                     <!------------- PAGE INTRO 2 ------------->
                     <data>
-                        <string class="id">page-intro-2</string>
+            <string class="id">0-page-intro-2</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-intro-card-2</string>
@@ -501,7 +502,7 @@
 
                     <!------------- PAGE INTRO 3 ------------->
                     <data>
-                        <string class="id">page-intro-3</string>
+            <string class="id">0-page-intro-3</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-intro-card-3</string>
@@ -563,7 +564,7 @@
 
                     <!------------- PAGE INTRO 4 ------------->
                     <data>
-                        <string class="id">page-intro-4</string>
+            <string class="id">0-page-intro-4</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-intro-card-4</string>
@@ -625,7 +626,7 @@
 
                     <!------------- PAGE INTRO 5 ------------->
                     <data>
-                        <string class="id">page-intro-5</string>
+            <string class="id">0-page-intro-5</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-intro-card-5</string>
@@ -687,7 +688,7 @@
 
                     <!------------- CHAP. 1 - PAGE TITLE ------------->
                     <data>
-                        <string class="id">chap-1-page-title</string>
+            <string class="id">1-chap-1-page-title</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-chap-1-title</string>
@@ -727,7 +728,7 @@
 
                     <!------------- CHAP. 1 - PAGE 1 ------------->
                     <data>
-                        <string class="id">chap-1-page-1</string>
+            <string class="id">1-chap-1-page-1</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-chap-1-card-1</string>
@@ -768,7 +769,7 @@
 
                     <!------------- CHAP. 1 - PAGE 2 ------------->
                     <data>
-                        <string class="id">chap-1-page-2</string>
+            <string class="id">1-chap-1-page-2</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-chap-1-card-2</string>
@@ -809,7 +810,7 @@
 
                     <!------------- CHAP. 1 - PAGE 3 ------------->
                     <data>
-                        <string class="id">chap-1-page-3</string>
+            <string class="id">1-chap-1-page-3</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-chap-1-card-3</string>
@@ -850,7 +851,7 @@
 
                     <!------------- CHAP. 1 - PAGE 4 ------------->
                     <data>
-                        <string class="id">chap-1-page-4</string>
+            <string class="id">1-chap-1-page-4</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-chap-1-card-4</string>
@@ -912,7 +913,7 @@
 
                     <!------------- CHAP. 1 - PAGE 5 ------------->
                     <data>
-                        <string class="id">chap-1-page-5</string>
+            <string class="id">1-chap-1-page-5</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-chap-1-card-5</string>
@@ -974,7 +975,7 @@
 
                     <!------------- CHAP. 2 PAGE TITLE ------------->
                     <data>
-                        <string class="id">chap-2-page-title</string>
+            <string class="id">2-chap-2-page-title</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-chap-2-title</string>
@@ -1014,7 +1015,7 @@
 
                     <!------------- CHAP. 2 - PAGE 1 ------------->
                     <data>
-                        <string class="id">chap-2-page-1</string>
+            <string class="id">2-chap-2-page-1</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-chap-2-card-1</string>
@@ -1055,7 +1056,7 @@
 
                     <!------------- CHAP. 2 - PAGE 2 ------------->
                     <data>
-                        <string class="id">chap-2-page-2</string>
+            <string class="id">2-chap-2-page-2</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-chap-2-card-2</string>
@@ -1096,7 +1097,7 @@
 
                     <!------------- CHAP. 2 - PAGE 3 ------------->
                     <data>
-                        <string class="id">chap-2-page-3</string>
+            <string class="id">2-chap-2-page-3</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-chap-2-card-3</string>
@@ -1137,7 +1138,7 @@
 
                     <!------------- CHAP. 2 - PAGE 4 ------------->
                     <data>
-                        <string class="id">chap-2-page-4</string>
+            <string class="id">2-chap-2-page-4</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-chap-2-card-4</string>
@@ -1178,7 +1179,7 @@
 
                     <!------------- CHAP. 2 - PAGE 5 ------------->
                     <data>
-                        <string class="id">chap-2-page-5</string>
+            <string class="id">2-chap-2-page-5</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-chap-2-card-5</string>
@@ -1219,7 +1220,7 @@
 
                     <!------------- CHAP. 2 - PAGE 5 ------------->
                     <data>
-                        <string class="id">chap-2-page-6</string>
+            <string class="id">2-chap-2-page-6</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-chap-2-card-6</string>
@@ -1260,7 +1261,7 @@
 
                     <!------------- CHAP. 3 PAGE TITLE ------------->
                     <data>
-                        <string class="id">chap-3-page-title</string>
+            <string class="id">3-chap-3-page-title</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-chap-3-title</string>
@@ -1300,7 +1301,7 @@
 
                     <!------------- CHAP. 3 - PAGE 1 ------------->
                     <data>
-                        <string class="id">chap-3-page-1</string>
+            <string class="id">3-chap-3-page-1</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-chap-3-card-1</string>
@@ -1341,7 +1342,7 @@
 
                     <!------------- CHAP. 3 - PAGE 2 ------------->
                     <data>
-                        <string class="id">chap-3-page-2</string>
+            <string class="id">3-chap-3-page-2</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-chap-3-card-2</string>
@@ -1382,7 +1383,7 @@
 
                     <!------------- CHAP. 3 - PAGE 3 ------------->
                     <data>
-                        <string class="id">chap-3-page-3</string>
+            <string class="id">3-chap-3-page-3</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-chap-3-card-3</string>
@@ -1423,7 +1424,7 @@
 
                     <!------------- CHAP. 3 - PAGE 4 ------------->
                     <data>
-                        <string class="id">chap-3-page-4</string>
+            <string class="id">3-chap-3-page-4</string>
                         <data class="blocks">
                             <data>
                                 <string class="id">block-chap-3-card-4</string>
